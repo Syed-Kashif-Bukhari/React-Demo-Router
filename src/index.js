@@ -411,9 +411,11 @@ const App = () => (
        <Link to="/about"> About Component</Link><br />
        <Link to="/"> App Component</Link><br />
         <Link to="/alink">Link Component</Link><br />
-        <Link to="/">Sport Component</Link><br />
-        <Link to="/">City Component</Link><br />
-    </div>
+        <Link to="/sport">Sport Component</Link><br />
+        <Link to="/city">City Component</Link><br />
+        <Link to="/pakistan">Pakistan Component</Link><br />
+        <Link to="/karachi" >Karachi Component</Link><br />
+        </div>
   
 );
 const About =() => (
@@ -431,26 +433,26 @@ const aLink =()=> (
 const Sport = () => (
     <div> 
         <h2> Sport </h2>
-        <Link to="/">Sport Component</Link>
+        <Link to="/sport">Sport Component</Link>
     </div>
 );
 const City = () => (
     <div>
         <h2>City</h2>
-        <Link to="/">City Component</Link>
+        <Link to="/city">City Component</Link>
     </div>
 );
 
 const Karachi =() => (
     <div>
     <h2>Karachi</h2>
-    <Link to="/" >Karachi Component</Link>
+    <Link to="/karachi" >Karachi Component</Link>
     </div>
 );
 const Pakistan = () => (
     <div>
         <h2>Pakistan</h2>
-        <Link to="/">Pakistan Component</Link>
+        <Link to="/pakistan">Pakistan Component</Link>
     </div>
 );
  
